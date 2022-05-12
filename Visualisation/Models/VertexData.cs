@@ -19,6 +19,7 @@ namespace Visualisation.Models
         public CriticalPointType criticalPointV = CriticalPointType.none;
         public VertexData(ReagentType reagentV, EnvironmentType environmentV, SolventType solventV, PhaseType phaseV, int TV, bool isResearchedV = false, ProductType productV = ProductType.none)
         {
+#error version
             this.reagentV = reagentV;
             this.productV = productV;
             this.environmentV = environmentV;
